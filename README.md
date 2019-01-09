@@ -1,5 +1,5 @@
-# PlayerPrefsChain
-PlayerPrefs' chain programming style implementation
+# PrefsTool
+PrefsTool is PlayerPrefs' chain programming style implementation. Just like the usage of Linq.
 
 ## Example
 ```C#
