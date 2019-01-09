@@ -11,6 +11,7 @@ private void Start()
         .OnLoaded(value => inputField.text = value)
         .AddEvent(inputField.onEndEdit.AddListener);
 }
+```
 
 ## Limitation
 It is now only available for string types.
