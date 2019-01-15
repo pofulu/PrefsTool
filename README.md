@@ -14,6 +14,3 @@ private void Start()
         .AddEvent(inputField.onEndEdit.AddListener);
 }
 ```
-
-## Limitation
-It is now only available for string types.
