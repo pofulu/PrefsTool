@@ -40,10 +40,10 @@ public class PrefsTool {
     public static PrefsTool Bind (string prefsKey, Func<string> onInit) {
         return new PrefsTool (prefsKey, onInit);
     }
-    public static PrefsTool Bind (float prefsKey, Func<float> onInit) {
+    public static PrefsTool Bind (string prefsKey, Func<float> onInit) {
         return new PrefsTool (prefsKey, onInit);
     }
-    public static PrefsTool Bind (int prefsKey, Func<int> onInit) {
+    public static PrefsTool Bind (string prefsKey, Func<int> onInit) {
         return new PrefsTool (prefsKey, onInit);
     }
 
